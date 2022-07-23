@@ -1,7 +1,4 @@
-//import * as Validator from "/validator";
-// node --experimental-modules main.js
-//import * as Message from './message.js';
-
+// node.js で実行したいので import はせず require で行う
 console.log("ロード前");
 const a = require('./validator');
 console.log("ロード後");
